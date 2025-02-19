@@ -1,0 +1,8 @@
+services:
+  micro:
+    build:
+      context: .
+    environment:
+      - RUN_MODE=production
+      - ENABLE_LOGGER=true
+      - DISCORD_WEBHOOK_URL=${DISCORD_WEBHOOK_URL}
