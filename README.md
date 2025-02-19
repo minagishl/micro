@@ -61,7 +61,7 @@ This project is inspired by the original [micro](https://github.com/evacuate/mic
 - **To run directly from source:**
 
   ```bash
-  go run main.go
+  go run .
   ```
 
 ## Contributing
