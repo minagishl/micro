@@ -1,0 +1,18 @@
+# Do not include Git management information in the build context
+.git
+.gitignore
+
+# Environment configuration files
+.env
+.env.example
+.editorconfig
+
+# IDE related settings
+.vscode
+
+# Build artifacts (Go compiled output)
+micro
+
+# Documentation
+README.md
+LICENSE
